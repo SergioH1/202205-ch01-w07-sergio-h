@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "start": "tsc --watch",
-        "start:build": "cross-env PORT=3476 nodemon ./dist/index.js",
+        "start:build": "cross-env PORT=8000 nodemon ./dist/index.js",
         "test": "jest --watchAll --coverage"
     },
     "author": "",
